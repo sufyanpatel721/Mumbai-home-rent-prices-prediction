@@ -105,7 +105,8 @@ Running last command above will prompt that server is running on port 5000.
 
 [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/)[<img target="_blank" src="https://static.javatpoint.com/tutorial/numpy/images/numpy-tutorial.png" width=170>](https://numpy.org/)[<img target="_blank" src="https://i.redd.it/c6h7rok9c2v31.jpg" width=170>](https://pandas.pydata.org/)[<img target="_blank" src="https://matplotlib.org/_static/logo2_compressed.svg" width=170>](https://matplotlib.org/)
 
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/800px-Scikit_learn_logo_small.svg.png" width=170>](https://scikit-learn.org/stable/)[<img target="_blank" src="https://jupyter.org/assets/nav_logo.svg" width=170>](https://jupyter.org/)[<img target="_blank" src="https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png" width=170>](https://www.jetbrains.com/pycharm/)
+[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/800px-Scikit_learn_logo_small.svg.png" width=170>](https://scikit-learn.org/stable/)[<img target="_blank" src="https://jupyter.org/assets/nav_logo.svg" width=170>](https://jupyter.org/)[<img target="_blank" src="https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png" width=170>](https://www.jetbrains.com/pycharm/)[<img target="_blank" src="https://www.nginx.com/wp-content/uploads/2020/06/NGINX-Logo-White-Endorsement-RGB.svg" width=170>](https://www.nginx.com/)
 
 ## Team
 <h3>Sufyan patel</h3>
+https://www.nginx.com/
