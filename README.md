@@ -2,7 +2,7 @@
 ## Table of Content
   * [Demo](#demo)
   * [Overview](#overview)
-  * [Deploy this app to cloud (AWS EC2)](#Deploy-this-app-to-cloud(AWS EC2))
+  * [Deploy this app to cloud](#Deploy-this-app-to-cloud)
   * [Installation](#installation)
   * [Run](#run)
 
@@ -27,7 +27,7 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
 pip install -r requirements.txt
 ```
 
-## Deploy this app to cloud (AWS EC2)
+## Deploy this app to cloud
 1. Create EC2 instance using amazon console, also in security group add a rule to allow HTTP incoming traffic
 2. Now connect to your instance using a command like this,
 ```
