@@ -77,6 +77,7 @@ IV. Restart nginx,
   python3 /home/ubuntu/Mumbaihomeprices/client/server.py
 ```
 Running last command above will prompt that server is running on port 5000.
+
 8. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.us-east-2.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment
 
 
