@@ -1,15 +1,13 @@
 ## Mumbai home prices
 
-![](Capture.PNG)
-
 ## Table of Content
   * [Demo](#demo)
   * [Overview](#overview)
   * [Installation](#installation)
   * [Deploy this app to cloud](#Deploy-this-app-to-cloud)
   * [Run](#run)
-  
-
+  * [Technologies Used](#technologies-used)
+  * [Team](#team)
 
 ## Demo
 ![](https://github.com/sufyanpatel721/Mumbai-home-prices/blob/master/ezgif.com-video-to-gif.gif)
@@ -109,5 +107,5 @@ Running last command above will prompt that server is running on port 5000.
 
 [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/800px-Scikit_learn_logo_small.svg.png" width=170>](https://scikit-learn.org/stable/)[<img target="_blank" src="https://jupyter.org/assets/nav_logo.svg" width=170>](https://jupyter.org/)[<img target="_blank" src="https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png" width=170>](https://www.jetbrains.com/pycharm/)
 
-
-
+## Team
+<h3>Sufyan patel</h3>
