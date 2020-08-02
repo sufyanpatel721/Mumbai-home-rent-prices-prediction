@@ -17,6 +17,7 @@ This data science project series walks through step by step process of how to bu
 	ssh -i "C:\Users\sufyan\.ssh\mhp.pem" ubuntu@ec2-3-135-249-69.us-east-2.compute.amazonaws.com
 ```
 3. nginx setup
+
    I. Install nginx on EC2 instance using these commands,
 ```
 	sudo apt-get update
@@ -43,6 +44,7 @@ This data science project series walks through step by step process of how to bu
    **/home/ubuntu/BangloreHomePrices**
 ```
 6. After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
+
     I. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
 ```
    server {
