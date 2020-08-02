@@ -2,7 +2,7 @@
 ## Table of Content
   * [Demo](#demo)
   * [Overview](#overview)
-  * [Deploy this app to cloud (AWS EC2)](#Deploy this app to cloud (AWS EC2))
+  * [Deploy this app to cloud (AWS EC2)](#Deploy-this-app-to-cloud(AWS EC2))
   * [Installation](#installation)
   * [Run](#run)
 
