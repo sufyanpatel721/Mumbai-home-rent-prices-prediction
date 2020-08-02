@@ -1,12 +1,16 @@
 # Mumbai-home-prices
 ## Table of Content
   * [Demo](#demo)
+  * [Overview](#overview)
+  * [Deploy this app to cloud (AWS EC2)](#Deploy this app to cloud (AWS EC2))
+  * [Installation](#installation)
+  * [Run](#run)
 
 
 ## Demo
 ![](https://github.com/sufyanpatel721/Mumbai-home-prices/blob/master/ezgif.com-video-to-gif.gif)
 
-
+## Overview
 This data science project series walks through step by step process of how to build a real estate price prediction website. A model was created using sklearn and linear regression using Mumbai home rent prices dataset from kaggle.com. Second step a python flask server that uses the saved model to serve http requests. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During model building the project has covered all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. Technology and tools this project covers,
 
 1. Python
@@ -17,8 +21,13 @@ This data science project series walks through step by step process of how to bu
 6. Python flask for http server
 7. HTML/CSS/Javascript for UI
 
+## Installation
+The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+```bash
+pip install -r requirements.txt
+```
 
-# Deploy this app to cloud (AWS EC2)
+## Deploy this app to cloud (AWS EC2)
 1. Create EC2 instance using amazon console, also in security group add a rule to allow HTTP incoming traffic
 2. Now connect to your instance using a command like this,
 ```
