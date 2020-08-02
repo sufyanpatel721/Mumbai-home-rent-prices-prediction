@@ -18,18 +18,18 @@ This data science project series walks through step by step process of how to bu
 ```
 3. nginx setup
 
-   I. Install nginx on EC2 instance using these commands,
+I. Install nginx on EC2 instance using these commands,
 ```
 	sudo apt-get update
 	sudo apt-get install nginx
 ```
-   II. Above will install nginx as well as run it. Check status of nginx using
+II. Above will install nginx as well as run it. Check status of nginx using
 
 
 ```
 	sudo service nginx status
 ```
-   III. Here are the commands to start/stop/restart nginx
+III. Here are the commands to start/stop/restart nginx
 ```
 	sudo service nginx start
 	sudo service nginx stop
@@ -45,7 +45,7 @@ This data science project series walks through step by step process of how to bu
 ```
 6. After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
 
-    I. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
+I. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
 ```
    server {
    	listen 80;
@@ -58,15 +58,15 @@ This data science project series walks through step by step process of how to bu
                }
     	}
 ```
-   II. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
+II. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
 ```
     sudo ln -v -s /etc/nginx/sites-available/mhp.conf
 ```
-   III. Remove symlink for default file in /etc/nginx/sites-enabled directory,
+III. Remove symlink for default file in /etc/nginx/sites-enabled directory,
 ```
    sudo unlink default
 ```
-   IV. Restart nginx,
+IV. Restart nginx,
 ```
    sudo service nginx restart
 ```
