@@ -63,7 +63,7 @@ III. Here are the commands to start/stop/restart nginx
 ```
 6. After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
 
-I. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
+I. Create this file /etc/nginx/sites-available/mhp.conf. The file content looks like this,
 ```
    server {
    	listen 80;
