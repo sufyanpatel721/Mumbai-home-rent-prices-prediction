@@ -12,7 +12,7 @@
 ![](https://github.com/sufyanpatel721/Mumbai-home-prices/blob/master/ezgif.com-video-to-gif.gif)
 
 ## Overview
-This data science project series walks through step by step process of how to build a real estate price prediction website. A model was created using sklearn and linear regression using Mumbai home rent prices dataset from kaggle.com. Second step a python flask server that uses the saved model to serve http requests. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During model building the project has covered all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. Technology and tools this project covers,
+This data science project walks through step by step process of how to build a real estate price prediction website. A model was created using sklearn and linear regression using Mumbai home rent prices dataset from kaggle.com. Second step a python flask server that uses the saved model to serve http requests. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During model building the project has covered all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. Technology and tools this project covers,
 
 1. Python
 2. Numpy and Pandas for data cleaning
