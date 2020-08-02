@@ -5,9 +5,10 @@
 ## Table of Content
   * [Demo](#demo)
   * [Overview](#overview)
-  * [Deploy this app to cloud](#Deploy-this-app-to-cloud)
   * [Installation](#installation)
+  * [Deploy this app to cloud](#Deploy-this-app-to-cloud)
   * [Run](#run)
+  
 
 
 ## Demo
@@ -100,5 +101,10 @@ Running last command above will prompt that server is running on port 5000.
 
 8. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.us-east-2.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment
 
+## Technologies Used
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/)[<img target="_blank" src="https://static.javatpoint.com/tutorial/numpy/images/numpy-tutorial.png" width=170>](https://numpy.org/)[<img target="_blank" src="https://i.redd.it/c6h7rok9c2v31.jpg" width=170>](https://pandas.pydata.org/)[<img target="_blank" src="https://matplotlib.org/_static/logo2_compressed.svg" width=170>](https://matplotlib.org/)
 
 
