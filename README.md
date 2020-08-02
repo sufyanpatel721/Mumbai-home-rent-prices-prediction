@@ -1,5 +1,4 @@
-# Mumbai-home-prices
-![](capture.PNG)
+![](Capture.PNG)
 
 ## Table of Content
   * [Demo](#demo)
