@@ -32,17 +32,17 @@ This data science project series walks through step by step process of how to bu
 	sudo service nginx stop
 	sudo service nginx restart
 ```
-   4. Now when you load cloud url in browser you will see a message saying "welcome to nginx" This means your nginx is setup and running.Now you need to copy all your code to      EC2 instance. You can do this either using git or copy files using winscp. We will use winscp. You can download winscp from here: 
-   ```
+4. Now when you load cloud url in browser you will see a message saying "welcome to nginx" This means your nginx is setup and running.Now you need to copy all your code to       EC2 instance. You can do this either using git or copy files using winscp. We will use winscp. You can download winscp from here: 
+```
    https://winscp.net/eng/download.php
-   ```
-   5. Once you connect to EC2 instance from winscp (instruction in a youtube video), you can now copy all code files into /home/ubuntu/ folder. The full path of your root folder    is now:
-   ```
+```
+5. Once you connect to EC2 instance from winscp (instruction in a youtube video), you can now copy all code files into /home/ubuntu/ folder. The full path of your root folder   is now:
+```
    **/home/ubuntu/BangloreHomePrices**
-   ```
-   6. After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
+```
+6. After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
     1. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
-   ```
+```
    server {
    	listen 80;
         server_name bhp;
@@ -53,27 +53,25 @@ This data science project series walks through step by step process of how to bu
                 proxy_pass http://127.0.0.1:5000;
                }
     	}
-    ```
-	    		`
-    2. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
-    ```
+```
+   2. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
+```
     sudo ln -v -s /etc/nginx/sites-available/mhp.conf
-
-    ```
-    3. Remove symlink for default file in /etc/nginx/sites-enabled directory,
-    ```
+```
+   3. Remove symlink for default file in /etc/nginx/sites-enabled directory,
+```
    sudo unlink default
-    ```
-    4. Restart nginx,
-    ```
-    sudo service nginx restart
-    ```
+```
+   4. Restart nginx,
+```
+   sudo service nginx restart
+```
 7. Now install python packages and start flask server
-    ```
+```
   sudo apt-get install python3-pip
   sudo pip3 install -r /home/ubuntu/Mumbaihomeprices/server/requirements.txt
   python3 /home/ubuntu/Mumbaihomeprices/client/server.py
-	```
+```
 Running last command above will prompt that server is running on port 5000.
 8. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.us-east-2.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment
 
