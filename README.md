@@ -17,16 +17,18 @@ This data science project series walks through step by step process of how to bu
 	ssh -i "C:\Users\sufyan\.ssh\mhp.pem" ubuntu@ec2-3-135-249-69.us-east-2.compute.amazonaws.com
 ```
 3. nginx setup
-  1. Install nginx on EC2 instance using these commands,
+   1. Install nginx on EC2 instance using these commands,
 ```
 	sudo apt-get update
 	sudo apt-get install nginx
 ```
-  2. Above will install nginx as well as run it. Check status of nginx using
+   2. Above will install nginx as well as run it. Check status of nginx using
+
+
 ```
 	sudo service nginx status
 ```
-  3. Here are the commands to start/stop/restart nginx
+   3. Here are the commands to start/stop/restart nginx
 ```
 	sudo service nginx start
 	sudo service nginx stop
