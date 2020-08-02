@@ -5,7 +5,6 @@
   * [Overview](#overview)
   * [Installation](#installation)
   * [Deploy this app to cloud](#Deploy-this-app-to-cloud)
-  * [Run](#run)
   * [Technologies Used](#technologies-used)
   * [Team](#team)
 
@@ -60,7 +59,7 @@ III. Here are the commands to start/stop/restart nginx
 ```
 5. Once you connect to EC2 instance from winscp (instruction in a youtube video), you can now copy all code files into /home/ubuntu/ folder. The full path of your root folder   is now:
 ```
-   **/home/ubuntu/BangloreHomePrices**
+   **/home/ubuntu/Mumbaihomeprices**
 ```
 6. After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
 
@@ -109,4 +108,4 @@ Running last command above will prompt that server is running on port 5000.
 
 ## Team
 <h3>Sufyan patel</h3>
-https://www.nginx.com/
+
